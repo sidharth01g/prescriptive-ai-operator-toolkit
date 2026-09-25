@@ -2,7 +2,8 @@
 
 **Toolkit:** Prescriptive AI Operator Toolkit  
 **Author:** Sidharth Gopakumar  
-**Status:** Fillable worksheet · v0.2 Sep 17, 2026 · Draft v0.2 · for practitioners  
+**Status:** Fillable worksheet · v0.2 · Sep 2026  
+
 **Use:** One screen for operators. If it needs a second tool to verify, the last mile is unfinished.
 
 ---

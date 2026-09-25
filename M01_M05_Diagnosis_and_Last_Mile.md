@@ -3,11 +3,11 @@
 
 **Toolkit:** Prescriptive AI Operator Toolkit  
 **Author:** Sidharth Gopakumar  
-**Status:** Briefs · v0.2 Sep 17, 2026 · Draft v0.2 · for practitioners
+**Status:** Briefs · v0.2 · Sep 2026
 
 ---
 
-## Module 1 · Are you stuck in prediction theater?
+## Module 1 · Are you stuck in the prediction trap?
 
 **Prediction** answers: what might happen?  
 **Prescription** answers: what should we do next, under uncertainty, with an owner?

@@ -20,7 +20,7 @@ Most enterprise AI stops at prediction: scores, dashboards, and fluent answers. 
 
 ## How to use
 
-1. Start with Module 1 if your team is stuck in dashboard theater.
+1. Start with Module 1 if your team is stuck in dashboards that never change a decision.
 2. Fill one decision object (Module 2) per high-stakes recommendation.
 3. Run Knowledge gates (Module 4) before any RAG / generative release.
 4. Track operator metrics (Module 6), not demo metrics.
@@ -38,3 +38,4 @@ Draft content. Free to use with attribution. Do not present employer-confidentia
 ## Changelog
 
 - **v0.2 (2026-09):** Practitioner module pack (templates + checklists).
+- **v0.2.1 (2026-09-25):** Status/line cleanup · drop manuscript refs · clearer wording.

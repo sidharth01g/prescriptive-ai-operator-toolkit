@@ -3,7 +3,7 @@
 
 **Toolkit:** Prescriptive AI Operator Toolkit  
 **Author:** Sidharth Gopakumar  
-**Status:** Diagnostic + plan · v0.2 Sep 17, 2026 · Draft v0.2 · for practitioners
+**Status:** Diagnostic + plan · v0.2 · Sep 2026
 
 ---
 
@@ -11,7 +11,7 @@
 
 | Rung | Must be true | Our workflow: _______________ |
 |------|--------------|-------------------------------|
-| **Crawl** | One narrow workflow · SoR grounding · human gate · abstain/override measured · decision object written | [ ] |
+| **Crawl** | One narrow workflow · grounded in the system of record · human gate · abstain/override measured · decision object written | [ ] |
 | **Walk** | Related workflows share evidence foundation · provenance in UI · pre/post eval · dual track sandbox vs prod | [ ] |
 | **Run** | Prescription in daily workflow · audit trails · continuous silent-failure eval · time-to-decision improved on baseline | [ ] |
 
@@ -20,7 +20,7 @@
 | Move | Exit when |
 |------|-----------|
 | Crawl → Walk | Second workflow reuses same grounding + owner model |
-| Walk → Run | Decision objects live in SoR / reporting / exception queues · weekly override review is routine |
+| Walk → Run | Decision objects live in the system of record, reporting, or exception queues · weekly override review is routine |
 
 **Sandbox vs production:** experimental agents cannot change money, commitments, or access without production bars.
 

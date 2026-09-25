@@ -2,8 +2,7 @@
 
 **Toolkit:** Prescriptive AI Operator Toolkit  
 **Author:** Sidharth Gopakumar  
-**Status:** Appendix · v0.2 Sep 17, 2026 · Draft v0.2 · for practitioners  
-**Source:** Manuscript Ch10
+**Status:** Appendix · v0.2 · Sep 2026
 
 ---
 
@@ -37,7 +36,8 @@
 - Keeping tenancy checks ahead of model novelty  
 - Expert-facing explainability that survives audit  
 - Funding last-mile integration with the same urgency as model access  
-- Proving time-to-decision gains without inventing "hours saved" theater  
+- Proving time-to-decision gains without inventing fake "hours saved" claims  
+
 
 ---
 
@@ -55,4 +55,4 @@
 
 ---
 
-**Related:** Modules 1–8 · Manuscript Ch10
+**Related:** Modules 1–8

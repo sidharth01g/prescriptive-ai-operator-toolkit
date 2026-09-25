@@ -2,7 +2,7 @@
 
 **Toolkit:** Prescriptive AI Operator Toolkit  
 **Author:** Sidharth Gopakumar  
-**Status:** Gate checklist · v0.2 Sep 17, 2026 · Draft v0.2 · for practitioners
+**Status:** Gate checklist · v0.2 · Sep 2026
 
 ---
 

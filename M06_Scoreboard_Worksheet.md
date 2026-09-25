@@ -2,7 +2,7 @@
 
 **Toolkit:** Prescriptive AI Operator Toolkit  
 **Author:** Sidharth Gopakumar  
-**Status:** Worksheet · v0.2 Sep 17, 2026 · Draft v0.2 · for practitioners
+**Status:** Worksheet · v0.2 · Sep 2026
 
 ---
 
@@ -24,7 +24,7 @@
 
 | # | Metric | How you measure | Owner | This week | Target / kill line |
 |---|--------|-----------------|-------|-----------|--------------------|
-| 1 | Time-to-decision vs baseline (top 3 decision types) | Clock from trigger → committed action in SoR | | | |
+| 1 | Time-to-decision vs baseline (top 3 decision types) | Clock from trigger → committed action in the system of record | | | |
 | 2 | Override rate + reason codes | Count overrides · top 3 codes weekly | | | |
 | 3 | Abstain rate (thin retrieval / stale data) | Abstains ÷ eligible decision moments | | | |
 | 4 | Silent-failure catch rate in eval (pre + post release) | Wrong-but-plausible caught ÷ injected cases | | | |

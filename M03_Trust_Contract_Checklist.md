@@ -2,7 +2,7 @@
 
 **Toolkit:** Prescriptive AI Operator Toolkit  
 **Author:** Sidharth Gopakumar  
-**Status:** Checklist · v0.2 Sep 17, 2026 · Draft v0.2 · for practitioners
+**Status:** Checklist · v0.2 · Sep 2026
 
 ---
 
@@ -58,7 +58,7 @@ If the explanation cannot be pasted into a customer or compliance conversation, 
 
 | Week | Focus | Done? |
 |------|-------|-------|
-| 1 | Ship one narrow decision set · curiosity window | [ ] |
+| 1 | Ship one narrow decision set · watch whether operators pull it before expanding | [ ] |
 | 2 | Review every override with the operator · treat reasons as requirements | [ ] |
 | 3 | Publish one note: abstains, wrong answers, what changed | [ ] |
 | 4 | Kill one noisy alert or ungrounded surface · keep only what earns attention | [ ] |
@@ -69,7 +69,8 @@ If you cannot staff the weekly review, do not broaden rollout.
 
 ## Anti-patterns
 
-- Trust theater: long FAQ that never appears in the decision moment  
+- Trust docs that never appear in the decision moment  
+
 - Push storms: dozens of "AI insights" with no prescribed action  
 - Blame the user for overrides instead of treating them as product signal  
 
