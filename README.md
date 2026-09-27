@@ -1,34 +1,47 @@
 # Prescriptive AI Operator Toolkit
 
 **Author:** Sidharth Gopakumar  
-**Version:** 0.2 (draft)  
+**Version:** 0.3  
 **Audience:** Product managers and engineering leads shipping AI into high-stakes operator workflows
 
-Most enterprise AI stops at prediction: scores, dashboards, and fluent answers. This toolkit is about prescription: what action to take under uncertainty, with enough trust and auditability that operators will use it.
+Most enterprise AI stops at a score, a dashboard, or a fluent answer. This toolkit is about the next step: what action to take under uncertainty, with an owner, evidence, and a way to override.
+
+The pages are worksheets. Fill them on one real workflow. Do not treat them as a slide deck.
+
+## Start here
+
+1. If the team is stuck in status colors, open [Diagnosis and last mile](modules/01-diagnosis-and-last-mile.md).
+2. Write one [decision object](modules/02-decision-object.md) for a single recommendation.
+3. Run [knowledge gates](modules/04-knowledge-gates.md) before any retrieval or generative release.
+4. Track [operator metrics](modules/06-operator-scoreboard.md), not demo metrics.
+5. Use the [one-week Crawl plan](modules/07-maturity-and-crawl.md) and stop if the kill line hits.
+
+## Repository layout
+
+| Path | What it is |
+|------|------------|
+| [modules/](modules/) | The working pack: diagnosis, decision object, trust, knowledge gates, scoreboard, Crawl plan, shared-learnings synthesis |
+| [appendix/](appendix/) | Field notes and a refuse-to-ship list |
 
 ## Modules
 
 | # | Module | File |
 |---|--------|------|
-| 1 + 5 | Diagnosis (prediction trap) · Last-mile placement | [M01_M05_Diagnosis_and_Last_Mile.md](M01_M05_Diagnosis_and_Last_Mile.md) |
-| 2 | Decision object template | [M02_Decision_Object_Template.md](M02_Decision_Object_Template.md) |
-| 3 | Trust contract + 30-day plan | [M03_Trust_Contract_Checklist.md](M03_Trust_Contract_Checklist.md) |
-| 4 | Knowledge / RAG gate checklist | [M04_Knowledge_Gate_Checklist.md](M04_Knowledge_Gate_Checklist.md) |
-| 6 | Operator scoreboard worksheet | [M06_Scoreboard_Worksheet.md](M06_Scoreboard_Worksheet.md) |
-| 7 + 8 | Maturity ladder · one-week Crawl plan | [M07_M08_Maturity_and_Crawl_Plan.md](M07_M08_Maturity_and_Crawl_Plan.md) |
-| Appendix | Field notes + refuse-to-ship | [APPENDIX_Field_Notes.md](APPENDIX_Field_Notes.md) |
+| 1 + 5 | Diagnosis (prediction trap) and last-mile placement | [modules/01-diagnosis-and-last-mile.md](modules/01-diagnosis-and-last-mile.md) |
+| 2 | Decision object template | [modules/02-decision-object.md](modules/02-decision-object.md) |
+| 3 | Trust contract and 30-day plan | [modules/03-trust-contract.md](modules/03-trust-contract.md) |
+| 4 | Knowledge / RAG gate checklist | [modules/04-knowledge-gates.md](modules/04-knowledge-gates.md) |
+| 6 | Operator scoreboard | [modules/06-operator-scoreboard.md](modules/06-operator-scoreboard.md) |
+| 7 + 8 | Maturity ladder and one-week Crawl plan | [modules/07-maturity-and-crawl.md](modules/07-maturity-and-crawl.md) |
+| 9 | Public ship notes, turned into one prescription | [modules/09-shared-learnings.md](modules/09-shared-learnings.md) |
+| Appendix | Field notes and refuse-to-ship | [appendix/field-notes.md](appendix/field-notes.md) |
 
-## How to use
-
-1. Start with Module 1 if your team is stuck in dashboards that never change a decision.
-2. Fill one decision object (Module 2) per high-stakes recommendation.
-3. Run Knowledge gates (Module 4) before any RAG / generative release.
-4. Track operator metrics (Module 6), not demo metrics.
-5. Use the Crawl plan (Module 8) for a one-week pilot with kill criteria.
+Module 5 lives with Module 1. There is no Module 5 file.
 
 ## Author
 
-Sidharth Gopakumar · Product Manager (AI / enterprise software)  
+Sidharth Gopakumar, Product Manager (AI / enterprise software)
+
 [LinkedIn](https://www.linkedin.com/in/sidharth-gopakumar/) · [Google Scholar](https://scholar.google.com/citations?user=P3nj4GIAAAAJ&hl=en) · [ORCID](https://orcid.org/0009-0004-1108-370X)
 
 ## License
@@ -37,5 +50,6 @@ Draft content. Free to use with attribution. Do not present employer-confidentia
 
 ## Changelog
 
-- **v0.2 (2026-09):** Practitioner module pack (templates + checklists).
-- **v0.2.1 (2026-09-25):** Status/line cleanup · drop manuscript refs · clearer wording.
+- **v0.3 (2026-09-27):** Folder layout (`modules/`, `appendix/`). Added Module 9, a synthesis of public ship notes into one prescription worksheet.
+- **v0.2.1 (2026-09-25):** Clearer status lines. Removed manuscript references.
+- **v0.2 (2026-09):** Practitioner module pack (templates and checklists).
